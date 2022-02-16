@@ -1,0 +1,22 @@
+import{a as y}from"./@vueuse.f12362bf.js";import{_ as k,f as c}from"./index.8c99d488.js";import{p as x,r,c as f,y as _,B as t,u as o,am as j,an as w,x as h}from"./@vue.93899e90.js";import"./vue-router.62208e1c.js";import"./pinia.7738838c.js";import"./vue-demi.b3a9cad9.js";import"./mitt.550594b0.js";import"./element-plus.da7f9641.js";import"./lodash.1a3e162a.js";import"./nprogress.5f640c6a.js";import"./async-validator.5d25c98b.js";import"./@popperjs.a8a4a6a0.js";import"./resize-observer-polyfill.8deb1e21.js";import"./lodash-es.ef547d44.js";const m=n=>(j("data-v-4810281c"),n=n(),w(),n),C=["width","height"],B=["id"],I=m(()=>t("animate",{attributeName:"x1",values:"0%;100%;0%",dur:"10s",begin:"0s",repeatCount:"indefinite"},null,-1)),V=m(()=>t("animate",{attributeName:"x2",values:"100%;0%;100%",dur:"10s",begin:"0s",repeatCount:"indefinite"},null,-1)),N=["stop-color"],R=["values"],E=["stop-color"],S=["values"],z=["id"],L=["points"],G=["points"],O=["points"],q=["points"],A=["points"],D=["points"],F=["points"],H=["points"],J=["points"],K=["fill","points"],M=["width","height","fill","mask"],P=x({props:{propValue:null,element:null},setup(n){const v=n,p=r(null),e=r(150),l=r(150),d=r(`border-box-9-gradient-${c()}`),$=r(`border-box-9-mask-${c()}`);y(p,s=>{const i=s[0].contentRect;e.value=i.width,l.value=i.height});const a=f(()=>{const s=v.propValue.colorLeft,u=v.propValue.colorRight;return s&&u?[s,u]:s?[s,s]:u?[u,u]:["#11eefd","#0078d2"]}),b=f(()=>v.propValue.backgroundColor?v.propValue.backgroundColor:"transparent");return(s,u)=>(h(),_("div",{class:"dv-border-box-9",ref:(i,g)=>{g.mainEl=i,p.value=i}},[(h(),_("svg",{class:"dv-border-svg-container",width:e.value,height:l.value},[t("defs",null,[t("linearGradient",{id:d.value,x1:"0%",y1:"0%",x2:"100%",y2:"100%"},[I,V,t("stop",{offset:"0%","stop-color":o(a)[0]},[t("animate",{attributeName:"stop-color",values:`${o(a)[0]};${o(a)[1]};${o(a)[0]}`,dur:"10s",begin:"0s",repeatCount:"indefinite"},null,8,R)],8,N),t("stop",{offset:"100%","stop-color":o(a)[1]},[t("animate",{attributeName:"stop-color",values:`${o(a)[1]};${o(a)[0]};${o(a)[1]}`,dur:"10s",begin:"0s",repeatCount:"indefinite"},null,8,S)],8,E)],8,B),t("mask",{id:$.value},[t("polyline",{stroke:"#fff","stroke-width":"3",fill:"transparent",points:`8, ${l.value*.4} 8, 3, ${e.value*.4+7}, 3`},null,8,L),t("polyline",{fill:"#fff",points:`8, ${l.value*.15} 8, 3, ${e.value*.1+7}, 3
+              ${e.value*.1}, 8 14, 8 14, ${l.value*.15-7}
+            `},null,8,G),t("polyline",{stroke:"#fff","stroke-width":"3",fill:"transparent",points:`${e.value*.5}, 3 ${e.value-3}, 3, ${e.value-3}, ${l.value*.25}`},null,8,O),t("polyline",{fill:"#fff",points:`
+              ${e.value*.52}, 3 ${e.value*.58}, 3
+              ${e.value*.58-7}, 9 ${e.value*.52+7}, 9
+            `},null,8,q),t("polyline",{fill:"#fff",points:`
+              ${e.value*.9}, 3 ${e.value-3}, 3 ${e.value-3}, ${l.value*.1}
+              ${e.value-9}, ${l.value*.1-7} ${e.value-9}, 9 ${e.value*.9+7}, 9
+            `},null,8,A),t("polyline",{stroke:"#fff","stroke-width":"3",fill:"transparent",points:`8, ${l.value*.5} 8, ${l.value-3} ${e.value*.3+7}, ${l.value-3}`},null,8,D),t("polyline",{fill:"#fff",points:`
+              8, ${l.value*.55} 8, ${l.value*.7}
+              2, ${l.value*.7-7} 2, ${l.value*.55+7}
+            `},null,8,F),t("polyline",{stroke:"#fff","stroke-width":"3",fill:"transparent",points:`${e.value*.35}, ${l.value-3} ${e.value-3}, ${l.value-3} ${e.value-3}, ${l.value*.35}`},null,8,H),t("polyline",{fill:"#fff",points:`
+              ${e.value*.92}, ${l.value-3} ${e.value-3}, ${l.value-3} ${e.value-3}, ${l.value*.8}
+              ${e.value-9}, ${l.value*.8+7} ${e.value-9}, ${l.value-9} ${e.value*.92+7}, ${l.value-9}
+            `},null,8,J)],8,z)]),t("polygon",{fill:o(b),points:`
+        15, 9 ${e.value*.1+1}, 9 ${e.value*.1+4}, 6 ${e.value*.52+2}, 6
+        ${e.value*.52+6}, 10 ${e.value*.58-7}, 10 ${e.value*.58-2}, 6
+        ${e.value*.9+2}, 6 ${e.value*.9+6}, 10 ${e.value-10}, 10 ${e.value-10}, ${l.value*.1-6}
+        ${e.value-6}, ${l.value*.1-1} ${e.value-6}, ${l.value*.8+1} ${e.value-10}, ${l.value*.8+6}
+        ${e.value-10}, ${l.value-10} ${e.value*.92+7}, ${l.value-10}  ${e.value*.92+2}, ${l.value-6}
+        11, ${l.value-6} 11, ${l.value*.15-2} 15, ${l.value*.15-7}
+      `},null,8,K),t("rect",{x:"0",y:"0",width:e.value,height:l.value,fill:`url(#${d.value})`,mask:`url(#${$.value})`},null,8,M)],8,C))],512))}});var ne=k(P,[["__scopeId","data-v-4810281c"]]);export{ne as default};
