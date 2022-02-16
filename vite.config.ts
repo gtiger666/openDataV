@@ -41,6 +41,7 @@ export default ({ mode }: ConfigEnv): UserConfigExport => {
     build: {
       target: 'es2015',
       chunkSizeWarningLimit: 1500,
+      base: './',
       terserOptions: {
         compress: {
           keep_infinity: true,
